@@ -1,7 +1,7 @@
 ///<reference types="Cypress" />
 
-const cypress = require("cypress")
-const cypressConfig = require("../../../cypress.config")
+//const cypress = require("cypress")
+
 
 
 describe('Framework2 customise cmd', function () {
@@ -17,7 +17,7 @@ describe('Framework2 customise cmd', function () {
     })
     it('Shop ', function () {
         
-        cy.visit(Cypress.env('url'))
+        cy.visit("https://rahulshettyacademy.com/angularpractice/")
 
         //TC- grabb all product and select perticuler product and click on add cart btn
         //in customise cmd use support-commands.js in this file we create custome method ans use in tc

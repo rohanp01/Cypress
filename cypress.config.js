@@ -2,11 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
 
-  env: {
-
-    url: 'https://rahulshettyacademy.com/angularpractice/'
-  },
-
+  
 
 
   e2e: {
